@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173f35" />
+    <meta name="description" content="Le kit Excel pour suivre commandes, livraisons, installations et SAV dans les petites équipes terrain." />
+    <meta property="og:title" content="Pilotage Terrain — gardez le fil des opérations" />
+    <meta property="og:description" content="Un kit Excel simple pour suivre commandes, livraisons, installations et SAV." />
+    <meta property="og:type" content="website" />
+    <title>Pilotage Terrain — le suivi simple des opérations</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site-config.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#haut" aria-label="Pilotage Terrain, accueil">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none"><text x="6" y="25" fill="currentColor" font-family="Arial, sans-serif" font-size="24" font-weight="800">P</text><circle cx="25.5" cy="7" r="3.5" fill="#D2F36B"/></svg>
+          </span>
+          <span class="brand-wordmark">PILOTAGE <b>TERRAIN</b></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Ouvrir le menu">
+          <span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Navigation principale">
+          <a href="#contenu-kit">Le kit</a>
+          <a href="#fonctionnement">Comment ça marche</a>
+          <a href="#questions">Questions</a>
+          <a class="nav-cta" href="#offre">Voir l’offre <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero section" id="haut">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Le kit de pilotage des équipes terrain</p>
+            <h1>Du premier appel<br />à la dernière <span class="highlight">livraison.</span></h1>
+            <p class="hero-lede">Gardez commandes, tournées, installations et SAV au même endroit avec un classeur Excel conçu pour les petites équipes qui font avancer les choses sur le terrain.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contenu-kit">Découvrir le kit <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="#fonctionnement">Voir comment ça marche <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-proof" aria-label="Caractéristiques du kit">
+              <span><i class="proof-check" aria-hidden="true">✓</i> Sans abonnement</span>
+              <span><i class="proof-check" aria-hidden="true">✓</i> Prêt à adapter</span>
+              <span><i class="proof-check" aria-hidden="true">✓</i> Format Excel</span>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Aperçu illustratif du tableau de bord, avec des données fictives">
+            <div class="visual-note"><span class="live-dot"></span> APERÇU DU TABLEAU DE BORD</div>
+            <div class="dashboard-window">
+              <div class="window-topbar">
+                <div class="window-brand"><span class="mini-mark">P</span><span>PILOTAGE TERRAIN</span></div>
+                <div class="window-date">VUE D’ENSEMBLE <span>·</span> CETTE SEMAINE</div>
+              </div>
+              <div class="window-content">
+                <div class="window-heading">
+                  <div><span class="window-kicker">BONJOUR, ÉQUIPE</span><h2>La semaine en un coup d’œil.</h2></div>
+                  <span class="week-badge">Semaine 42 <b>⌄</b></span>
+                </div>
+                <div class="metric-grid">
+                  <div class="metric-card"><span>COMMANDES OUVERTES</span><strong>28</strong><small><b class="metric-arrow">↗</b> 4 cette semaine</small></div>
+                  <div class="metric-card"><span>LIVRAISONS À VENIR</span><strong>07</strong><small>Sur les 7 prochains jours</small></div>
+                  <div class="metric-card metric-alert"><span>SAV À SUIVRE</span><strong>03</strong><small>Prochaine action à planifier</small></div>
+                </div>
+                <div class="window-lower">
+                  <div class="week-panel">
+                    <div class="panel-heading"><span>ACTIVITÉ DE LA SEMAINE</span><small>Commandes planifiées</small></div>
+                    <div class="chart-area" aria-hidden="true">
+                      <div class="chart-guides"><i></i><i></i><i></i></div>
+                      <div class="bar-set"><b style="--bar: 34%"></b><b style="--bar: 59%"></b><b style="--bar: 44%"></b><b style="--bar: 82%"></b><b style="--bar: 64%"></b><b style="--bar: 94%"></b><b style="--bar: 48%"></b></div>
+                    </div>
+                    <div class="chart-days"><span>LUN</span><span>MAR</span><span>MER</span><span>JEU</span><span>VEN</span><span>SAM</span><span>DIM</span></div>
+                  </div>
+                  <div class="next-panel">
+                    <div class="panel-heading"><span>PROCHAINES ÉCHÉANCES</span><a href="#contenu-kit" aria-label="Voir les échéances">↗</a></div>
+                    <div class="deadline-row"><span class="deadline-icon green">↗</span><div><b>Livraison — Martin</b><small>Demain · 9h–12h</small></div><span class="status-pill status-ready">Confirmée</span></div>
+                    <div class="deadline-row"><span class="deadline-icon orange">!</span><div><b>Rappel SAV — Durand</b><small>Jeudi · avant 17h</small></div><span class="status-pill status-follow">À suivre</span></div>
+                    <div class="deadline-row"><span class="deadline-icon blue">＋</span><div><b>Installation — Lenoir</b><small>Vendredi · 14h</small></div><span class="status-pill status-plan">Planifiée</span></div>
+                  </div>
+                </div>
+                <p class="mockup-footnote">Maquette illustrative · informations fictives</p>
+              </div>
+            </div>
+            <div class="floating-stamp"><span>UNE VUE<br />PLUS CLAIRE</span><b>↗</b></div>
+          </div>
+        </div>
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      </section>
+
+      <section class="trust-strip" aria-label="Le kit en bref">
+        <div class="container trust-grid">
+          <p>FAIT POUR LE QUOTIDIEN DES PETITES ÉQUIPES</p>
+          <div><strong>01</strong><span>classeur Excel</span></div>
+          <div><strong>03</strong><span>espaces de suivi</span></div>
+          <div><strong>200</strong><span>lignes par registre</span></div>
+          <div><strong>0 €</strong><span>d’abonnement</span></div>
+        </div>
+      </section>
+
+      <section class="section feature-section" id="contenu-kit">
+        <div class="container">
+          <div class="section-intro split-intro">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-dot"></span> Le quotidien, mieux organisé</p>
+              <h2>Moins de choses à<br />garder en tête.</h2>
+            </div>
+            <p>Un seul classeur pour relier le suivi client à ce qui se passe au dépôt, sur la route et après l’installation.</p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-card-primary">
+              <div class="feature-icon icon-orders" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><path d="M7 4.75h9.1L21 9.6v13.65H7V4.75Z" stroke="currentColor" stroke-width="1.6"/><path d="M16 5v5h5M10 14h8M10 18h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+              <p class="feature-index">01 / COMMANDES</p>
+              <h3>Du panier<br />au planning.</h3>
+              <p>Regroupez client, commande, montant, dates, équipe et prochaine action pour savoir où en est chaque dossier.</p>
+              <div class="feature-line"><span></span><small>Un suivi clair, ligne par ligne</small></div>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon icon-delivery" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><path d="M3.75 8.25h12v11.5h-12V8.25ZM15.75 12h5l3.5 3.75v4h-8.5V12Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="8.25" cy="20.25" r="2.25" fill="#F7F6F0" stroke="currentColor" stroke-width="1.6"/><circle cx="20.25" cy="20.25" r="2.25" fill="#F7F6F0" stroke="currentColor" stroke-width="1.6"/></svg></div>
+              <p class="feature-index">02 / LIVRAISONS & POSE</p>
+              <h3>La bonne équipe,<br />au bon moment.</h3>
+              <p>Planifiez les créneaux, associez les prestataires et repérez d’un regard les prochaines livraisons à préparer.</p>
+              <div class="feature-line"><span></span><small>Dates et statuts visibles</small></div>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon icon-sav" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><path d="M5 6.5h18v12H12l-5.5 4v-4H5v-12Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 11h10M9 14.5h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+              <p class="feature-index">03 / SERVICE APRÈS-VENTE</p>
+              <h3>Chaque demande<br />a sa prochaine étape.</h3>
+              <p>Notez le motif, la priorité, le responsable et la relance prévue pour garder le fil jusqu’à la résolution.</p>
+              <div class="feature-line"><span></span><small>Échéances et alertes intégrées</small></div>
+            </article>
+          </div>
+          <p class="fine-print">Conçu pour Excel. Le classeur reste modifiable pour l’adapter à vos mots, vos étapes et votre organisation.</p>
+        </div>
+      </section>
+
+      <section class="section how-section" id="fonctionnement">
+        <div class="container how-grid">
+          <div class="how-copy">
+            <p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> Simple à prendre en main</p>
+            <h2>Un rituel léger.<br /><span>Un suivi plus net.</span></h2>
+            <p>Pas de nouvel outil à déployer dans toute l’entreprise. Vous ouvrez le classeur, vous l’adaptez à vos étapes, puis vous le mettez à jour au fil des opérations.</p>
+            <a class="button button-lime" href="#offre">Voir ce qui est inclus <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="steps-list">
+            <article class="step-item"><span class="step-number">01</span><div><h3>Ajoutez vos commandes</h3><p>Renseignez les informations utiles et choisissez un statut dans les listes déroulantes.</p></div><span class="step-arrow">↗</span></article>
+            <article class="step-item"><span class="step-number">02</span><div><h3>Préparez la semaine</h3><p>Repérez les livraisons à venir et les échéances en retard depuis la vue d’ensemble.</p></div><span class="step-arrow">↗</span></article>
+            <article class="step-item"><span class="step-number">03</span><div><h3>Gardez le fil du SAV</h3><p>Attribuez une prochaine action et une date de suivi à chaque demande client.</p></div><span class="step-arrow">↗</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section offer-section" id="offre">
+        <div class="container offer-wrap">
+          <div class="offer-heading">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Le kit numérique</p>
+            <h2>Votre prochain<br />point de repère.</h2>
+            <p>Une base opérationnelle que vous pouvez ajuster à votre activité, sans abonnement ni installation compliquée.</p>
+          </div>
+          <article class="offer-card">
+            <div class="offer-card-top"><span class="offer-label">PILOTAGE TERRAIN</span><span class="offer-badge">FORMAT EXCEL</span></div>
+            <h3>Kit de pilotage<br />commandes & SAV</h3>
+            <p class="offer-desc">Le classeur de suivi pour petites équipes de vente, livraison et installation.</p>
+            <div class="offer-price"><span id="price-label">Lancement prochainement</span><small>Fichier numérique · sans abonnement</small></div>
+            <ul class="offer-list">
+              <li><span>✓</span> Tableau de bord avec indicateurs clés</li>
+              <li><span>✓</span> Suivi commandes, livraisons et installations</li>
+              <li><span>✓</span> Registre SAV avec échéances et alertes</li>
+              <li><span>✓</span> Jusqu’à 200 lignes par registre</li>
+            </ul>
+            <a class="button button-dark button-full" data-checkout href="#offre" aria-disabled="true">Bientôt disponible <span aria-hidden="true">↗</span></a>
+            <p class="offer-caption" id="offer-caption">L’ouverture des ventes sera annoncée ici.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="questions">
+        <div class="container faq-grid">
+          <div class="faq-intro"><p class="eyebrow"><span class="eyebrow-dot"></span> Quelques réponses</p><h2>Avant de<br />vous lancer.</h2><p>Le kit est volontairement simple : il sert de point de départ, pas de logiciel métier à installer.</p></div>
+          <div class="faq-list">
+            <details><summary>Ai-je besoin d’un logiciel particulier ? <span>＋</span></summary><p>Le kit est un classeur au format Excel. Il est conçu pour être utilisé et adapté dans un logiciel compatible avec les fichiers .xlsx.</p></details>
+            <details><summary>Puis-je changer les colonnes et les statuts ? <span>＋</span></summary><p>Oui. Les noms de colonnes, les étapes et les listes sont modifiables pour correspondre à votre façon de travailler.</p></details>
+            <details><summary>Le classeur remplace-t-il un logiciel de gestion ? <span>＋</span></summary><p>Non. C’est un outil de suivi simple pour centraliser des informations opérationnelles. Il ne remplace pas votre caisse, votre comptabilité ou votre système de gestion existant.</p></details>
+            <details><summary>Comment recevrai-je le fichier ? <span>＋</span></summary><p>Le mode de paiement et la remise du fichier seront précisés à l’ouverture des ventes.</p></details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="brand brand-footer" href="#haut"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><text x="6" y="25" fill="currentColor" font-family="Arial, sans-serif" font-size="24" font-weight="800">P</text><circle cx="25.5" cy="7" r="3.5" fill="#D2F36B"/></svg></span><span class="brand-wordmark">PILOTAGE <b>TERRAIN</b></span></a>
+        <p>Le suivi des opérations, avec les pieds sur le terrain.</p>
+        <a class="back-top" href="#haut">Retour en haut ↑</a>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="current-year"></span> Pilotage Terrain</span><span>Un outil de suivi indépendant pour les petites équipes opérationnelles.</span></div>
+    </footer>
+  </body>
+</html>
